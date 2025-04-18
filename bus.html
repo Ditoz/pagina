@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Inicio - Bustime</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bus-container">
+    <h1>Bienvenido al Control de Buses en Chía</h1>
+    <img src="img/bus2.png" alt="Bus en Chía" class="bus-image">
+
+    <h2>Selecciona el tipo de bus:</h2>
+    <select>
+      <option value="transchia">TransChía</option>
+      <option value="flotachia">FlotaChía</option>
+    </select>
+
+    <button onclick="mostrarFelicidades()">Seleccionar</button>
+  </div>
+
+  <script>
+    function mostrarFelicidades() {
+      alert("🎉 ¡Felicitaciones! Has seleccionado un bus.");
+    }
+  </script>
+</body>
+</html>
